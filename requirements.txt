@@ -1,0 +1,31 @@
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+scikit-learn>=1.1.0
+
+# TensorFlow
+tensorflow[and-cuda]>=2.10.0
+
+# Darts
+darts>=0.25.0
+
+# PyTorch
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# PyTorch(required by Darts)
+pytorch-lightning>=1.8.0
+
+# Additional CUDA dependencies
+nvidia-cublas-cu11>=11.10.3.66
+nvidia-cuda-cupti-cu11>=11.7.101
+nvidia-cuda-nvrtc-cu11>=11.7.99
+nvidia-cuda-runtime-cu11>=11.7.99
+nvidia-cudnn-cu11>=8.5.0.96
+
+# Additional forecasting libraries
+statsforecast>=1.4.0
+xgboost>=1.6.0
+optuna==4.5.0
